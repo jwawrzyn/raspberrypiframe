@@ -15,7 +15,7 @@ class APIKeys:
 		    fp = open("apikeys")
 		except IOError as e:
 			if e.errno == errno.EACCESS:
-				print "file does not exists"
+				print "file does not exist"
 		    # Not a permission error.
 			raise
 		else:
